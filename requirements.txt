@@ -1,0 +1,71 @@
+# Core framework
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+python-multipart==0.0.12
+
+# Database
+sqlalchemy[asyncio]==2.0.35
+aiosqlite==0.20.0
+asyncpg==0.29.0
+alembic==1.13.3
+
+# Pydantic
+pydantic==2.9.2
+pydantic-settings==2.5.2
+
+# LLM providers
+openai==1.51.0
+anthropic==0.34.2
+tiktoken==0.8.0
+
+# Vector store
+chromadb==0.5.15
+
+# Desktop UI
+flet==0.24.1
+
+# Task scheduler
+apscheduler==3.10.4
+
+# Crypto exchanges
+python-binance==1.0.19
+websockets==13.1
+
+# HTTP
+aiohttp==3.10.10
+httpx==0.27.2
+requests==2.32.3
+
+# Web3 / On-chain
+web3==7.3.0
+eth-account==0.13.4
+hexbytes==1.2.1
+
+# Data / Analysis
+pandas==2.2.3
+numpy==1.26.4
+ta==0.11.0
+
+# Security
+cryptography==43.0.1
+python-dotenv==1.0.1
+
+# Logging
+loguru==0.7.2
+
+# Cache / Messaging
+redis==5.1.1
+
+# Email / Notifications
+aiosmtplib==3.0.2
+
+# Testing
+pytest==8.3.3
+pytest-asyncio==0.24.0
+pytest-mock==3.14.0
+httpx==0.27.2
+
+# Utilities
+python-dateutil==2.9.0
+pytz==2024.2
+rich==13.9.2
